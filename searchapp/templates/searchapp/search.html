@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Word Search</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#search" ).autocomplete({
+      source: "/search/",
+      minLength: 1,
+    });
+  });
+  </script>
+</head>
+<body>
+  <br>
+<div class="ui-widget"
+  <h2>Word Search</h2>
+  <form action= "/searchResults" method= "GET">
+      <input id="search" type="text" placeholder="Enter word" name="term" size="25">
+      <input type="submit" value="Search">
+  </form>
+</div>
+</body>
+</html>
