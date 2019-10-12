@@ -18,14 +18,11 @@ def search(patial_word):
         if patial_word in word:
             yield word
 
-def _sortByKey(s):
-    return -s[2]
-
 def _weightedSort(data):
     # matches at the start of a word should be ranked higher
     data.sort(key=itemgetter(1))
     # Sort based on the frequency
-    data.sort(key=_sortByKey)
+    data.sort(key=itemgetter(2), reverse = True)
     # Sort based on lenght keeping match at start at higher rank
     data.sort(key=itemgetter(1, 3))
     return data
