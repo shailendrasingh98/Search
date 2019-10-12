@@ -61,8 +61,14 @@ We have used a [Heroku](https://devcenter.heroku.com/categories/python-support).
 ## Instructions:
 * Open App [click here](https://shailu-search-app.herokuapp.com/).
 * You would see page as below.
-![search_page](/images/search_page.png)
+
+![search_page](https://github.com/shailendrasingh98/Search_Page/blob/master/images/search_page.PNG)
+
 * When you start entering word in search box, dropdown will show matching words.
-![word_search](/images/word_search.png)
+
+![search](https://github.com/shailendrasingh98/Search_Page/blob/master/images/word_search.PNG)
+
 * if you click search for any word or incomplete word, it will show a json message containing matching words up to 25.
-![search_result](/images/search_result .png)
+
+![search_result](https://github.com/shailendrasingh98/Search_Page/blob/master/images/search_result.PNG)
+
