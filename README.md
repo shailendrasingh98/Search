@@ -44,3 +44,25 @@ c. Short words should rank higher than long words. For example, given the input
 environ, the result environment should rank higher than environmentalism.
 i. As a corollary to the above, an exact match should always be ranked as the
 first result.
+
+## Project Development:
+
+We have developed this project using python [Django](https://docs.djangoproject.com/en/2.2/framework) framework.
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
+See Project source code [source](https://github.com/shailendrasingh98/Search_Page).
+
+## Deployment:
+
+We have used a [Heroku](https://devcenter.heroku.com/categories/python-support). Heroku makes it easy to deploy and scale Python apps. Whether you prefer frameworks like Django or Flask, or getting your hands dirty with Twisted or raw sockets, Heroku helps you build things your way with the tools you love.
+
+[click here to open app](https://shailu-search-app.herokuapp.com/).
+
+## Instructions:
+* Open App [click here](https://shailu-search-app.herokuapp.com/).
+* You would see page as below.
+![search_page](/images/search_page.png)
+* When you start entering word in search box, dropdown will show matching words.
+![word_search](/images/word_search.png)
+* if you click search for any word or incomplete word, it will show a json message containing matching words up to 25.
+![search_result](/images/search_result .png)
