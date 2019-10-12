@@ -23,7 +23,7 @@ def _weightedSort(data):
     data.sort(key=itemgetter(1))
     # Sort based on the frequency
     data.sort(key=itemgetter(2), reverse = True)
-    # Sort based on lenght keeping match at start at higher rank
+    # Sort based on length keeping match at start at higher rank
     data.sort(key=itemgetter(1, 3))
     return data
 

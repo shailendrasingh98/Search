@@ -15,7 +15,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls import path
 from searchapp.views import search_view, search_autocomplete, getSearchResults
 
 urlpatterns = [
